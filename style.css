@@ -10,8 +10,27 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-/* Inline #3 | https://hk4jq.csb.app/ */
+.intro-chunk {
+  max-width: 300px;
+}
+
+.title {
+  margin-bottom: 48px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+header {
+  padding: 8px 24px 64px;
+}
 
 main {
   border-top: 5px solid hsl(0deg, 0%, 40%);
@@ -22,19 +41,16 @@ main {
 
 .card {
   background-color: hsl(0deg, 0%, 100%);
-  padding: 16px 24px;
+  padding: 8px 24px;
+  border-bottom: 4px solid hsl(0deg, 0%, 40%);
 }
 
 .indented-heading {
   margin-left: -48px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 4px solid hsl(45deg, 100%, 30%);
-  width: -moz-fit-content;
-  padding: 8px 16px;
+  width: fit-content;
+  padding: 8px 48px;
   margin-top: 0px;
 }
 
-.card {
-  /* padding: 16px 24px; */
-  padding: 8px 24px;
-}
