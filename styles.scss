@@ -1,0 +1,55 @@
+body{
+    font-size: 20px;
+    padding: 1%;
+}
+button{
+    background: #f0e0ff;
+    border: 2px solid #c5bacf;
+    font-size:large;
+    color: darkslategrey;
+    border-radius: 8px;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 2px 0 rgb(165, 156, 173);
+    &:hover, &:focus, &:active{
+        box-shadow: none;
+    }
+}
+#ajax_message{
+    width: auto;
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-weight: bold;
+    &:empty{
+        display:none;
+    }
+    &.error{
+        background-color: #ffd1d1;
+        border-color: darkred;
+        color: #410b0b;
+    }
+    &.success{
+        background-color: #f0fff0;
+        border-color: darkgreen;
+        color: #0a3c06;
+    }
+    a{
+        color:darkslateblue;
+    }
+}
+.close{
+    cursor: pointer;
+    position:absolute;
+    right:10px;
+    top:5px;
+}
+#new_member{
+    display:none; 
+    background: #eee;
+    padding: 20px 10px;
+    position: relative;
+    input{
+        margin: 10px 0;
+    }
+}
